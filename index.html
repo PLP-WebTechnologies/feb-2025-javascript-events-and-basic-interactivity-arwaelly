@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🎉 JavaScript Playground 🎉</h1>
+
+  <!-- Event Handling -->
+  <button id="clickMeBtn">Click Me</button>
+  <div id="hoverBox">Hover over me!</div>
+  <input type="text" id="keyInput" placeholder="Press a key..." />
+
+  <!-- Interactive Elements -->
+  <button id="changeTextBtn">Change My Text</button>
+  <p id="textToChange">Watch me change!</p>
+
+  <!-- Image Gallery -->
+  <div id="gallery">
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" id="galleryImage" />
+    <button id="nextImageBtn">Next Image</button>
+  </div>
+
+  <!-- Accordion -->
+  <div class="accordion">
+    <h3 class="accordion-header">Click to toggle content</h3>
+    <div class="accordion-content">
+      <p>This is the hidden content inside the accordion.</p>
+    </div>
+  </div>
+
+  <!-- Form Validation -->
+  <form id="contactForm">
+    <label>Email: <input type="email" id="email" required /></label><br/>
+    <label>Password: <input type="password" id="password" required /></label><br/>
+    <button type="submit">Submit</button>
+    <p id="formFeedback"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
